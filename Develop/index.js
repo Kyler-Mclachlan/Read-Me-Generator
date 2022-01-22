@@ -55,16 +55,6 @@ const userInput = () => {
     ])   
   };
 
-
-// TODO: Create a function to write README file
-function writeToFile(readMeTemplate, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
-
 userInput()
     .then(projectDetails => {
         const readMefile = generateMarkdown(projectDetails)
@@ -75,4 +65,4 @@ userInput()
       console.log(projectDetails)
       console.log(projectDetails.title)
     });
-    });
+});
