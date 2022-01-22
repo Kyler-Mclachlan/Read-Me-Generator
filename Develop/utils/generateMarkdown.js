@@ -15,7 +15,7 @@ function generateMarkdown(data) {
   return ` 
   
   ${data.title}
-  #Description <font size=”1″>
+  #Description 
   ${data.description}
   #Installation Instructions
   ${data.installation}

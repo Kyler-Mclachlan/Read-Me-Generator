@@ -45,6 +45,12 @@ const userInput = () => {
         type: 'input',
         name: 'testing',
         message: 'Provide test instructions'
+      },
+      {
+        type: 'checkbox',
+        name: 'licenseType',
+        message: 'Provide test instructions',
+        choices: ['MIT', 'Apache', 'GPL', 'Affero GPL', 'Artistic License 2.0', 'Mozilla Public License Version 2.0', 'Eclipse Public License v1.0']
       }
     ])   
   };
