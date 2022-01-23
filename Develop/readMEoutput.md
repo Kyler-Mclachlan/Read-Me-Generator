@@ -1,6 +1,6 @@
  
   
-  ![](https://img.shields.io/badge/ArtisticLicense2.0-license-green)
+  
   # t
 
   # Table of Contents:
@@ -23,7 +23,7 @@
   t
   
   # License
-  https://www.gnu.org/licenses/gpl-3.0.en.html
+  
   
   # Contribution Guidelines
   t
