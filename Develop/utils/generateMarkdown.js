@@ -34,22 +34,22 @@ function renderLicenseLink(data) {
   if (data.licenseType = "GPL"){
     link = "https://www.gnu.org/licenses/gpl-3.0.en.html"
   }
-  if (data.licenseType = "Affero GPL"){
+  else if (data.licenseType = "Affero GPL"){
       link = "https://www.gnu.org/licenses/agpl-3.0.en.html"
     }
-  if (data.licenseType = "MIT"){
+  else if (data.licenseType = "MIT"){
       link = "https://opensource.org/licenses/MIT"
     }
-  if (data.licenseType = "Mozilla Public License Version 2.0"){
+  else if (data.licenseType = "Mozilla Public License Version 2.0"){
       link = "https://www.mozilla.org/en-US/MPL/2.0/"
     }
-  if (data.licenseType = "Artistic License 2.0"){
+  else if (data.licenseType = "Artistic License 2.0"){
       link = "https://opensource.org/licenses/Artistic-2.0"
     }
-  if (data.licenseType = "test"){
+  else if (data.licenseType = "test"){
       link = "https://www.eclipse.org/legal/epl-v10.html"
     }
-   else {
+  else {
      link = ''
    };                                              
   return link; 
