@@ -3,6 +3,7 @@
 function renderLicenseBadge(data) {
   if (data.licenseType = 'GPL'){
     icon =  `![](https://img.shields.io/badge/GPL-license-green)`
+    console.log(" line 6" + data.licenseType)
   }
   else if (data.licenseType = 'Affero GPL'){
     icon =  `![](https://img.shields.io/badge/AfferoGPL-license-green)`
@@ -25,6 +26,8 @@ function renderLicenseBadge(data) {
   else {
     icon = ''
   };
+  console.log(data)
+  console.log('line 30' + data.licenseType)
   return icon; 
 }
 
@@ -73,7 +76,7 @@ var descriptionTitle = {
 function generateMarkdown(data) {
   return ` 
   
-  ${renderLicenseBadge(data.licenseType)}
+  ${renderLicenseBadge(data)}
   # ${data.title}
 
   # Table of Contents:
@@ -96,7 +99,7 @@ function generateMarkdown(data) {
   ${data.usage}
   
   # License
-  ${renderLicenseLink(data.licenseType)}
+  ${renderLicenseLink(data)}
   
   # Contribution Guidelines
   ${data.contribution}

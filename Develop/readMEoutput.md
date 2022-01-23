@@ -1,6 +1,6 @@
  
   
-  ![](https://img.shields.io/badge/EclipsePublicLicensev1.0-license-green)
+  ![](https://img.shields.io/badge/GPL-license-green)
   # t
 
   # Table of Contents:
@@ -23,7 +23,7 @@
   t
   
   # License
-  https://www.eclipse.org/legal/epl-v10.html
+  https://www.gnu.org/licenses/gpl-3.0.en.html
   
   # Contribution Guidelines
   t
