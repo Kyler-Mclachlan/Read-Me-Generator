@@ -6,7 +6,7 @@ const { title } = require('process');
 
 // TODO: Create an array of questions for user input
 const userInput = () => {
-    
+    licenseType = [];
     return inquirer.prompt([
       {
         type: 'input',
@@ -87,10 +87,10 @@ const userInput = () => {
         }
       },
       {
-        type: 'checkbox',
+        type: 'list',
         name: 'licenseType',
         message: 'Provide your license type:',
-        choices: ['MIT','Apache', 'GPL', 'Affero GPL', 'Artistic License 2.0', 'Mozilla Public License Version 2.0', 'Eclipse Public License v1.0','NA']
+        choices: ['Apache', 'GPL', 'Affero GPL', 'Artistic License 2.0', 'Mozilla Public License Version 2.0', 'Eclipse Public License v1.0']
       },
       {
         type: 'input',
@@ -110,6 +110,7 @@ const userInput = () => {
 
 userInput()
     .then(projectDetails => {
+      console.log(projectDetails.licenseType)
         const readMefile = generateMarkdown(projectDetails)
             fs.writeFile('./readMEoutput.md', readMefile, err => {
       if (err) throw new Error(err);

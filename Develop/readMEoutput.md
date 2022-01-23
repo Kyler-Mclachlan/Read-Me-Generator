@@ -1,7 +1,7 @@
  
   
-  ![](https://img.shields.io/badge/AfferoGPL-license-green)
-  # test
+  ![](https://img.shields.io/badge/EclipsePublicLicensev1.0-license-green)
+  # t
 
   # Table of Contents:
 
@@ -14,7 +14,7 @@
   7. Questions/Feedback
 
   # Description 
-  test
+  t
   
   # Installation Instructions
   t
@@ -23,7 +23,7 @@
   t
   
   # License
-  https://opensource.org/licenses/MIT
+  https://www.eclipse.org/legal/epl-v10.html
   
   # Contribution Guidelines
   t
