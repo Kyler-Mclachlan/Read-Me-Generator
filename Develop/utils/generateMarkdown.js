@@ -4,22 +4,22 @@ function renderLicenseBadge(data) {
   if (data.licenseType = 'GPL'){
     icon =  `![](https://img.shields.io/badge/GPL-license-green)`
   }
-  if (data.licenseType = 'Affero GPL'){
+  else if (data.licenseType = 'Affero GPL'){
     icon =  `![](https://img.shields.io/badge/AfferoGPL-license-green)`
   }
-  if (data.licenseType = 'Apache'){
+  else if (data.licenseType = 'Apache'){
     icon =  `![](https://img.shields.io/badge/Apache-license-green)`
   }
-  if (data.licenseType = 'MIT'){
+  else if (data.licenseType = 'MIT'){
     icon =  `![](https://img.shields.io/badge/MIT-license-green)`
   }
-  if (data.licenseType = 'Mozilla Public License Version 2.0'){
+  else if (data.licenseType = 'Mozilla Public License Version 2.0'){
     icon =  `![](https://img.shields.io/badge/MozillaPublicLicenseVersion2.0-license-green)`
   }
-  if (data.licenseType = 'Artistic License 2.0'){
+  else if (data.licenseType = 'Artistic License 2.0'){
     icon =  `![](https://img.shields.io/badge/ArtisticLicense2.0-license-green')`
   }
-  if (data.licenseType = 'Eclipse Public License v1.00'){
+  else if (data.licenseType = 'Eclipse Public License v1.00'){
     icon =  `![](https://img.shields.io/badge/EclipsePublicLicensev1.0-license-green)`
   }
   else {
