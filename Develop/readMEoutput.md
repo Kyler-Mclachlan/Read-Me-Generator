@@ -1,7 +1,7 @@
  
-  ![alt text](![APM](https://img.shields.io/apm/l/test))
-  .DevelopadgesMIT.svg
-  # test
+  
+  
+  # t
 
   # Table of Contents:
 
@@ -9,26 +9,25 @@
   2. Installation
   3. Usage
   4. License
-  https://opensource.org/licenses/MIT
   5. Contributing
   6. Tests
   7. Questions/Feedback
 
   # Description 
-  test
+  t
   
   # Installation Instructions
-  test
+  t
   
   # Usage Parameters
-  test
+  t
   
   # License
-  MIT
+  https://opensource.org/licenses/MIT
   
   # Contribution Guidelines
-  test
+  t
   
   # Instructions for Testing
-  test
+  t
  

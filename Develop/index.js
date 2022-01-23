@@ -24,33 +24,73 @@ const userInput = () => {
       {
         type: 'input',
         name: 'description',
-        message: 'Provide project description'
+        message: 'Provide project description',
+        validate: descriptionInput => {
+          if (descriptionInput) {
+            return true;
+          } else {
+            console.log('please enter your projects description!')
+            return false;
+          }
+        }
       },
       {
         type: 'input',
         name: 'installation',
-        message: 'Enter your projects installation instructions'
+        message: 'Enter your projects installation instructions',
+        validate: installationInput => {
+          if (installationInput) {
+            return true;
+          } else {
+            console.log('please enter your projects installation instructions!')
+            return false;
+          }
+        }
       },
       {
         type: 'input',
         name: 'usage',
-        message: 'Provide usage information:'
+        message: 'Provide usage information:',
+        validate: usageInput => {
+          if (usageInput) {
+            return true;
+          } else {
+            console.log('please enter your projects usage guidelines!')
+            return false;
+          }
+        }
       },
       {
         type: 'input',
         name: 'contribution',
-        message: 'Provide contribution guidelines:'
+        message: 'Provide contribution guidelines:',
+        validate: contributionInput => {
+          if (contributionInput) {
+            return true;
+          } else {
+            console.log('please enter your projects contribution guidelines!')
+            return false;
+          }
+        }
       },
       {
         type: 'input',
         name: 'testing',
-        message: 'Provide test instructions'
+        message: 'Provide test instructions for your project:',
+        validate: testingInput => {
+          if (testingInput) {
+            return true;
+          } else {
+            console.log('please enter directions for users to test your project!')
+            return false;
+          }
+        }
       },
       {
-        type: 'checkbox',
+        type: 'LIST',
         name: 'licenseType',
-        message: 'Provide test instructions',
-        choices: ['MIT', 'Apache', 'GPL', 'Affero GPL', 'Artistic License 2.0', 'Mozilla Public License Version 2.0', 'Eclipse Public License v1.0']
+        message: 'Provide your license type:',
+        choices: ['MIT', 'Apache', 'GPL', 'Affero GPL', 'Artistic License 2.0', 'Mozilla Public License Version 2.0', 'Eclipse Public License v1.0','NA']
       }
     ])   
   };
