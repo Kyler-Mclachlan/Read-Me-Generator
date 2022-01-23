@@ -1,29 +1,20 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(data) {
-  if (data.licenseType = "MIT"){
+  if (data.licenseType = 'GPL'){
     icon =  `![](https://img.shields.io/badge/MIT-license-green)`
-  };
-  if (data.licenseType = "Apache"){
+  }
+  if (data.licenseType = 'Apache'){
     icon =  `![](https://img.shields.io/badge/Apache-license-green)`
-  };
-  if (data.licenseType = "GPL"){
+  }
+  if (data.licenseType = 'MIT'){
     icon =  `![](https://img.shields.io/badge/GPL-license-green)`
-  };
-  if (data.licenseType = "Affero GPL"){
+  }
+  if (data.licenseType = 'Affero GPL'){
     icon =  `![](https://img.shields.io/badge/AfferoGPL-license-green)`
-  };
-  if (data.licenseType = "Artistic License 2.0"){
-    icon =  `![](https://img.shields.io/badge/ArtisticLicense2.0-license-green)`
-  };
-  if (data.licenseType = "Mozilla Public License Version 2.0"){
-    icon =  `![](https://img.shields.io/badge/MozillaPublicLicenseVersion 2.0-license-green)`
-  };
-  if (data.licenseType = "Eclipse Public License v1.0"){
-    icon =  `![](https://img.shields.io/badge/EclipsePublicLicensev1.0-license-green)`
-  };
-  if (data.licenseType = "NA"){
-    icon =  ``
+  }
+  else {
+    icon = ''
   };
   return icon; 
 }

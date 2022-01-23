@@ -87,11 +87,24 @@ const userInput = () => {
         }
       },
       {
-        type: 'LIST',
+        type: 'checkbox',
         name: 'licenseType',
         message: 'Provide your license type:',
-        choices: ['MIT', 'Apache', 'GPL', 'Affero GPL', 'Artistic License 2.0', 'Mozilla Public License Version 2.0', 'Eclipse Public License v1.0','NA']
-      }
+        choices: ['MIT','Apache', 'GPL', 'Affero GPL', 'Artistic License 2.0', 'Mozilla Public License Version 2.0', 'Eclipse Public License v1.0','NA']
+      },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'Please provide your github user name:',
+        validate: githubInput => {
+          if (githubInput) {
+            return true;
+          } else {
+            console.log('Please enter your github username!')
+            return false;
+          }
+        }
+      },
     ])   
   };
 
@@ -104,5 +117,6 @@ userInput()
       console.log('Page created! Check out index.html in this directory to see it!');
       console.log(projectDetails)
       console.log(projectDetails.title)
+      console.log(projectDetails.licenseType)
     });
 });
