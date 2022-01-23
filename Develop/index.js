@@ -90,7 +90,7 @@ const userInput = () => {
         type: 'list',
         name: 'licenseType',
         message: 'Provide your license type:',
-        choices: ['Apache', 'GPL', 'Affero GPL', 'Artistic License 2.0', 'Mozilla Public License Version 2.0', 'Eclipse Public License v1.0']
+        choices: ['MIT','Apache', 'GPL', 'Affero GPL', 'Artistic License 2.0', 'Mozilla Public License Version 2.0', 'Eclipse Public License v1.0']
       },
       {
         type: 'input',

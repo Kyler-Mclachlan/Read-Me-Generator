@@ -1,6 +1,6 @@
  
   
-  ![](https://img.shields.io/badge/EclipsePublicLicensev1.0-license-green)
+  ![](https://img.shields.io/badge/ArtisticLicense2.0-license-green)
   # t
 
   # Table of Contents:
