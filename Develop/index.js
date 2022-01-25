@@ -105,6 +105,19 @@ const userInput = () => {
           }
         }
       },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Please provide your email:',
+        validate: emailInput => {
+          if (emailInput) {
+            return true;
+          } else {
+            console.log('Please enter your email so users and reach out with questions!')
+            return false;
+          }
+        }
+      },
     ])   
   };
 

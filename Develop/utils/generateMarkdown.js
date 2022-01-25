@@ -43,8 +43,12 @@ function renderLicenseLink(data) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
+function renderLicenseSection(data){
+  licenseType = data.licenseType;
+  console.log(licenseType);
+  section = `This project is covered by the ${licenseType} license. If you'd like to know more about this license please click the link below: `                                
+  return section; 
+}
 // TODO: Create a function to generate markdown for README
 
 var descriptionTitle = {
@@ -73,22 +77,36 @@ function generateMarkdown(data) {
   7. Questions/Feedback
 
   # Description 
+
   ${data.description}
   
   # Installation Instructions
+
   ${data.installation}
   
   # Usage Parameters
+
   ${data.usage}
   
   # License
-  ${renderLicenseLink(data)}
+
+  ${renderLicenseSection(data)}
+
+  ${renderLicenseLink(data)}  
   
   # Contribution Guidelines
+
   ${data.contribution}
   
   # Instructions for Testing
+
   ${data.testing}
+
+  # Questions and Feedback
+
+  https://github.com/${data.github}
+
+  Please reach out to me with any qestions or feedback you may have at this email address: ${data.email}
  `
 ;
 }

@@ -1,7 +1,7 @@
  
   
   ![](https://img.shields.io/badge/AfferoGPL-license-green)
-  # t
+  # test
 
   # Table of Contents:
 
@@ -14,20 +14,34 @@
   7. Questions/Feedback
 
   # Description 
-  t
+
+  test
   
   # Installation Instructions
-  t
+
+  test
   
   # Usage Parameters
-  t
+
+  tes
   
   # License
-  https://www.gnu.org/licenses/agpl-3.0.en.html
+
+  This project is covered by the Affero GPL license. If you'd like to know more about this license please click the link below: 
+
+  https://www.gnu.org/licenses/agpl-3.0.en.html  
   
   # Contribution Guidelines
-  t
+
+  test
   
   # Instructions for Testing
-  t
+
+  test
+
+  # Questions and Feedback
+
+  github.com/Kyler-Mclachlan
+
+  Please reach out to me with any qestions or feedback you may have at this email address: kyler.mclachlan@gmail.com
  
