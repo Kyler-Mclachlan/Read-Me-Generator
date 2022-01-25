@@ -1,6 +1,6 @@
  
   
-  
+  ![](https://img.shields.io/badge/AfferoGPL-license-green)
   # t
 
   # Table of Contents:
@@ -23,7 +23,7 @@
   t
   
   # License
-  
+  https://www.gnu.org/licenses/agpl-3.0.en.html
   
   # Contribution Guidelines
   t
