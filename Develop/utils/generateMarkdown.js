@@ -35,6 +35,9 @@ function renderLicenseLink(data) {
   else if (linktest === "Eclipse Public License v1.0"){
       link = "https://www.eclipse.org/legal/epl-v10.html"
     }
+  else if (linktest === "Apache"){
+      link = "https://www.apache.org/licenses/LICENSE-2.0"
+    }  
   else {
      link = ''
    };                                         

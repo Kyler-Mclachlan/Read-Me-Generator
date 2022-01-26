@@ -37,7 +37,7 @@
 
   This project is covered by the Apache license. If you'd like to know more about this license please click the link below: 
 
-    
+  https://www.apache.org/licenses/LICENSE-2.0  
   
   # <a id="contribute">
     Contribution Guidelines
