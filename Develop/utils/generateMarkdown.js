@@ -68,41 +68,54 @@ function generateMarkdown(data) {
 
   # Table of Contents:
 
-  1. Project Description
-  2. Installation
-  3. Usage
-  4. License
-  5. Contributing
-  6. Tests
-  7. Questions/Feedback
+  1. [Project Description](#project-desc)
+  2. [Installation](#install)
+  3. [Usage](#usage)
+  4. [License](#license)
+  5. [Contributing](#contribute)
+  6. [Tests](#test)
+  7. [Questions/Feedback](#questions)
 
-  # Description 
+  # <a id="project-desc">
+    Description
+  </a>
 
   ${data.description}
-  
-  # Installation Instructions
+
+  # <a id="install">
+    Installation Instructions
+  </a>
 
   ${data.installation}
   
-  # Usage Parameters
+  # <a id="usage">
+    Usage Parameters
+  </a>
 
   ${data.usage}
   
-  # License
+  # <a id="license">
+    License
+  </a>
 
   ${renderLicenseSection(data)}
 
   ${renderLicenseLink(data)}  
   
-  # Contribution Guidelines
+  # <a id="contribute">
+    Contribution Guidelines
+  </a>
 
   ${data.contribution}
   
-  # Instructions for Testing
-
+ # <a id="test">
+    Instructions for Testing
+  </a>
   ${data.testing}
 
-  # Questions and Feedback
+ # <a id="questions">
+    Questions and Feedback
+  </a>
 
   https://github.com/${data.github}
 
