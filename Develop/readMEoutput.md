@@ -1,7 +1,7 @@
  
   
-  ![](https://img.shields.io/badge/Apache-license-green)
-  # t
+  ![](https://img.shields.io/badge/MIT-license-green)
+  # Read Me Generator
 
   # Table of Contents:
 
@@ -17,44 +17,44 @@
     Description
   </a>
 
-  t
+  This project allows developers to easily and quickly make high quailty read me files.
 
   # <a id="install">
     Installation Instructions
   </a>
 
-  t
+  Anyone who wishes to use this porject is free to do so.
   
   # <a id="usage">
     Usage Parameters
   </a>
 
-  t
+  This project is for anyone to use!
   
   # <a id="license">
     License
   </a>
 
-  This project is covered by the Apache license. If you'd like to know more about this license please click the link below: 
+  This project is covered by the MIT license. If you'd like to know more about this license please click the link below: 
 
-  https://www.apache.org/licenses/LICENSE-2.0  
+  https://opensource.org/licenses/MIT  
   
   # <a id="contribute">
     Contribution Guidelines
   </a>
 
-  t
+  Please reach out if you wish to contribute
   
  # <a id="test">
     Instructions for Testing
   </a>
-  t
+  NA for this project
 
  # <a id="questions">
     Questions and Feedback
   </a>
 
-  https://github.com/t
+  https://github.com/Kyler-Mclachlan
 
-  Please reach out to me with any qestions or feedback you may have at this email address: t
+  Please reach out to me with any qestions or feedback you may have at this email address: kyler.mclachlan@gmail.com
  
